@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>박형훈 · Portfolio</title>
+<meta name="description" content="박형훈 — 기획·디자인·개발 1인 풀스택 프로덕트 메이커 포트폴리오" />
+<link rel="stylesheet" href="styles.css" />
+<template id="__bundler_thumbnail" data-bg-color="#F4F1E9">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F4F1E9"/>
+    <circle cx="486" cy="312" r="26" fill="#1A1B1E"/>
+    <text x="540" y="345" font-family="Georgia, 'Times New Roman', serif" font-size="190" font-weight="700" fill="#1A1B1E" letter-spacing="-6">박형훈</text>
+    <text x="600" y="470" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="64" fill="#44454A">Portfolio</text>
+  </svg>
+</template>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-head" id="head">
+  <div class="head-inner">
+    <a href="#top" class="brand"><span class="dot"></span>박형훈</a>
+    <nav class="nav">
+      <a href="#career" class="hide-sm"><span class="idx">01</span>경력</a>
+      <a href="#work" class="hide-sm"><span class="idx">02</span>프로젝트</a>
+      <a href="#contact" class="cta">연락하기</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===================== SIDE INDEX ===================== -->
+<nav class="dex" aria-label="페이지 목차">
+  <ol>
+    <li><a href="#intro" data-target="intro"><span class="n">00</span><span class="t">Intro</span></a></li>
+    <li><a href="#career" data-target="career"><span class="n">01</span><span class="t">경력</span></a></li>
+    <li class="grp"><span class="gl">프로젝트</span></li>
+    <li><a href="#pj-1" data-target="pj-1"><span class="n">01</span><span class="t">KREMA</span></a></li>
+    <li><a href="#pj-2" data-target="pj-2"><span class="n">02</span><span class="t">메일 대시보드</span></a></li>
+    <li><a href="#pj-3" data-target="pj-3"><span class="n">03</span><span class="t">분양사 리디자인</span></a></li>
+    <li><a href="#pj-4" data-target="pj-4"><span class="n">04</span><span class="t">청약 대시보드</span></a></li>
+    <li><a href="#pj-5" data-target="pj-5"><span class="n">05</span><span class="t">AI 영상</span></a></li>
+    <li><a href="#contact" data-target="contact"><span class="n">→</span><span class="t">연락처</span></a></li>
+  </ol>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="intro">
+    <img class="vinyl" src="assets/lp.png" alt="" aria-hidden="true" />
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Portfolio — 2026</span>
+        <h1>박형훈<span class="latin">Product Maker</span></h1>
+        <p class="hero-lead">
+          부동산 분양 현장의 경험을 바탕으로, 사용자에게 꼭 필요한 정보를
+          가장 단순한 화면으로 옮깁니다. 기획부터 UI 디자인, 개발, 배포까지 직접 만드는
+          1인 풀스택 메이커입니다.
+        </p>
+        <div class="hero-role">
+          <span class="chip">기획</span>
+          <span class="chip">UI 디자인</span>
+          <span class="chip">프론트엔드 개발</span>
+          <span class="chip">배포 · 운영</span>
+        </div>
+        <div class="hero-contact">
+          <a href="mailto:2hthegreat@naver.com"><span class="k">Email</span>2hthegreat@naver.com</a>
+          <a href="tel:01089848128"><span class="k">Tel</span>010-8984-8128</a>
+        </div>
+      </div>
+
+      <div class="portrait">
+        <div class="portrait-frame">
+          <img src="assets/profile_c.jpg" alt="박형훈 프로필 사진" />
+          <span class="portrait-cap">Park Hyeonghun</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="strip" aria-hidden="true">
+    <div class="strip-track">
+      <span class="b">KREMA-INFO</span><i>✦</i><span>메일 운영 대시보드</span><i>✦</i><span class="b">분양대행사 리디자인</span><i>✦</i><span>청약 현황 대시보드</span><i>✦</i><span class="b">AI 영상 자동화</span><i>✦</i>
+      <span class="b">KREMA-INFO</span><i>✦</i><span>메일 운영 대시보드</span><i>✦</i><span class="b">분양대행사 리디자인</span><i>✦</i><span>청약 현황 대시보드</span><i>✦</i><span class="b">AI 영상 자동화</span><i>✦</i>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CAREER ===================== -->
+<section class="sec" id="career">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="eyebrow">01 — Career</span>
+        <h2>경력 <span class="l">/ Experience</span></h2>
+      </div>
+      <p class="note">현장에서 부동산 도메인을 익히고, 그 감각을 디지털 프로덕트로 옮깁니다.</p>
+    </div>
+
+    <div class="career reveal">
+      <div class="career-logo">
+        <img src="assets/hanulche.jpg" alt="하늘채 HANULCHE 로고" />
+      </div>
+      <div class="career-body">
+        <p class="role">하늘채 루시에르 모델하우스 근무</p>
+        <p class="where">대전 <span class="sep">·</span> 분양 현장 / 모델하우스</p>
+        <p>분양 현장에서 방문 고객을 응대하며 부동산 분양의 흐름과 고객의 관심사를 가까이에서 익혔습니다. 이때 쌓은 도메인 감각이 KREMA·청약 대시보드 등 부동산 프로젝트의 기획 토대가 되었습니다.</p>
+        <div class="career-meta">
+          <span class="chip">분양 상담</span>
+          <span class="chip">현장 운영</span>
+          <span class="chip">고객 응대</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WORK ===================== -->
+<section class="sec" id="work" style="padding-top:0;">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <span class="eyebrow">02 — Selected Work</span>
+        <h2>프로젝트 <span class="l">/ Projects</span></h2>
+      </div>
+      <p class="note">기획·디자인·개발을 직접 진행한 다섯 가지 작업입니다.</p>
+    </div>
+
+    <div class="projects">
+
+      <!-- P1 — KREMA -->
+      <article class="project reveal" id="pj-1" style="--accent:#1C7C53;">
+        <div class="pj-text">
+          <div class="pj-idx">01</div>
+          <h3 class="pj-title">KREMA-INFO</h3>
+          <p class="pj-sub">AI 활용 정보·교육 웹 애플리케이션</p>
+          <p class="pj-desc">한국부동산마케팅협회 교육생을 위한 모바일 정보 허브. 교육자료·공지·AI 인사이트를 한 화면에 모았습니다. 시니어 친화 UX와 FAQ 챗봇 '케미'를 직접 기획·개발하고 CI/CD로 배포·운영했습니다.</p>
+          <div class="pj-spec">
+            <div class="row"><span class="k">Role</span><span class="v">기획 · 개발 · 배포 (1인 풀스택)</span></div>
+            <div class="row"><span class="k">Stack</span><span class="v">Next.js · Tailwind · Vercel · Postgres</span></div>
+            <div class="row"><span class="k">Year</span><span class="v">2026</span></div>
+          </div>
+          <div class="pj-tags">
+            <span class="tag">시니어 친화 UX</span><span class="tag">챗봇 '케미'</span><span class="tag">CI/CD 자동 배포</span>
+          </div>
+          <a class="pj-link" href="https://krema-info.vercel.app" target="_blank" rel="noopener">krema-info.vercel.app <span class="ar">↗</span></a>
+        </div>
+        <div class="pj-visual">
+          <div class="phones">
+            <div class="phone back"><span class="notch"></span><div class="scr"><img src="assets/krema_2_c.jpg" alt="KREMA 챗봇 케미 화면" loading="lazy" /></div></div>
+            <div class="phone front"><span class="notch"></span><div class="scr"><img src="assets/krema_0_c.jpg" alt="KREMA 홈 화면" loading="lazy" /></div></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- P2 — Mail dashboard (live) -->
+      <article class="project flip reveal" id="pj-2" style="--accent:#41499C;">
+        <div class="pj-text">
+          <div class="pj-idx">02</div>
+          <h3 class="pj-title">메일 운영 대시보드</h3>
+          <p class="pj-sub">Google Sheets 기반 메일 트리아지 대시보드</p>
+          <p class="pj-desc">중요도·SLA·지연·감정을 가중한 우선순위 트리아지로 급한 메일을 먼저 보여줍니다. 받은 메일 추이, 발신자·도메인 트리맵, 18컬럼 전체 테이블까지 운영 현황을 한 화면에서 진단합니다.</p>
+          <div class="pj-spec">
+            <div class="row"><span class="k">Role</span><span class="v">기획 · 데이터 설계 · 개발</span></div>
+            <div class="row"><span class="k">Focus</span><span class="v">데이터 시각화 · 운영 자동화</span></div>
+            <div class="row"><span class="k">Year</span><span class="v">2026</span></div>
+          </div>
+          <div class="pj-tags">
+            <span class="tag">우선순위 트리아지</span><span class="tag">SLA 카운트다운</span><span class="tag">트리맵 · 차트</span>
+          </div>
+          <a class="pj-link" href="https://krema-mail-dashboard.vercel.app/" target="_blank" rel="noopener">krema-mail-dashboard.vercel.app <span class="ar">↗</span></a>
+        </div>
+        <div class="pj-visual">
+          <div class="browser">
+            <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">krema-mail-dashboard.vercel.app</span></div>
+            <div class="live-shell" data-src="https://krema-mail-dashboard.vercel.app/" data-href="https://krema-mail-dashboard.vercel.app/">
+              <span class="live-badge">Live</span>
+              <a class="live-open" href="https://krema-mail-dashboard.vercel.app/" target="_blank" rel="noopener" title="새 탭에서 열기" aria-label="새 탭에서 열기">↗</a>
+              <div class="live-cover">
+                <span class="spin" aria-hidden="true"></span>
+                <span class="ttl">메일 운영 대시보드</span>
+                <span class="lbl">미리보기 불러오는 중…</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- P3 — Redesign -->
+      <article class="project reveal" id="pj-3" style="--accent:#16386E;">
+        <div class="pj-text">
+          <div class="pj-idx">03</div>
+          <h3 class="pj-title">분양대행사 홈페이지 리디자인</h3>
+          <p class="pj-sub">부동산 분양대행 전문기업 공식 웹사이트 풀 리디자인</p>
+          <p class="pj-desc">노후한 레이아웃을 네이비+틸 톤의 일관된 디자인 시스템으로 전면 개편했습니다. 메인·서비스·실적·채용 전 페이지를 반응형으로 기획·디자인·퍼블리싱하고, 탭·필터·차트 등 인터랙션을 구현했습니다.</p>
+          <div class="pj-spec">
+            <div class="row"><span class="k">Role</span><span class="v">기획 · UI 디자인 · 퍼블리싱</span></div>
+            <div class="row"><span class="k">Scope</span><span class="v">메인 · 서비스 · 실적 · 채용 전체</span></div>
+            <div class="row"><span class="k">Status</span><span class="v">비공개 · 도메인/네임서버 세팅 중</span></div>
+          </div>
+          <div class="pj-tags">
+            <span class="tag">디자인 시스템</span><span class="tag">반응형 퍼블리싱</span><span class="tag">인터랙티브 UI</span>
+          </div>
+          <span class="pj-link muted">비공개 프로젝트 · 회사명 비표기</span>
+        </div>
+        <div class="pj-visual">
+          <div class="monitor">
+            <div class="monitor-screen">
+              <div class="monitor-glass">
+                <div class="monitor-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">●●●●.co.kr · 도메인 작업 중</span></div>
+                <img src="assets/redesign_0_c.jpg" alt="분양대행사 홈페이지 서비스 소개 화면" loading="lazy" />
+              </div>
+            </div>
+            <div class="monitor-neck"></div>
+            <div class="monitor-foot"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- P4 — Cheongyak dashboard (live) -->
+      <article class="project flip reveal" id="pj-4" style="--accent:#0E8AA6;">
+        <div class="pj-text">
+          <div class="pj-idx">04</div>
+          <h3 class="pj-title">청약 현황 대시보드</h3>
+          <p class="pj-sub">공공데이터포털 청약홈 API 기반 실시간 대시보드</p>
+          <p class="pj-desc">분양공고·경쟁률·당첨자 현황을 지역·공급 규모·시공사별로 시각화했습니다. 공공데이터 API를 직접 연동해 실시간 청약 시장 흐름을 한눈에 보여줍니다.</p>
+          <div class="pj-spec">
+            <div class="row"><span class="k">Role</span><span class="v">기획 · API 연동 · 개발</span></div>
+            <div class="row"><span class="k">Data</span><span class="v">공공데이터포털 청약홈 API</span></div>
+            <div class="row"><span class="k">Year</span><span class="v">2026</span></div>
+          </div>
+          <div class="pj-tags">
+            <span class="tag">공공데이터 API</span><span class="tag">실시간 현황</span><span class="tag">데이터 시각화</span>
+          </div>
+          <a class="pj-link" href="https://cheongyak-dashboard-cyan.vercel.app/" target="_blank" rel="noopener">cheongyak-dashboard-cyan.vercel.app <span class="ar">↗</span></a>
+        </div>
+        <div class="pj-visual">
+          <div class="browser">
+            <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">cheongyak-dashboard-cyan.vercel.app</span></div>
+            <div class="live-shell" data-src="https://cheongyak-dashboard-cyan.vercel.app/" data-href="https://cheongyak-dashboard-cyan.vercel.app/">
+              <span class="live-badge">Live</span>
+              <a class="live-open" href="https://cheongyak-dashboard-cyan.vercel.app/" target="_blank" rel="noopener" title="새 탭에서 열기" aria-label="새 탭에서 열기">↗</a>
+              <div class="live-cover">
+                <span class="spin" aria-hidden="true"></span>
+                <span class="ttl">청약 현황 대시보드</span>
+                <span class="lbl">미리보기 불러오는 중…</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- P5 — AI video -->
+      <article class="project reveal" id="pj-5" style="--accent:#6A48BE;">
+        <div class="pj-text">
+          <div class="pj-idx">05</div>
+          <h3 class="pj-title">AI 정보 영상 자동화</h3>
+          <p class="pj-sub">정보형 콘텐츠 영상 제작 자동화 샘플</p>
+          <p class="pj-desc">대본 작성부터 자막·영상 합성까지 AI로 연결해, 정보형 숏폼 영상을 빠르게 찍어내는 제작 파이프라인 샘플입니다. 반복 작업을 자동화해 콘텐츠 생산 속도를 끌어올립니다.</p>
+          <div class="pj-spec">
+            <div class="row"><span class="k">Role</span><span class="v">기획 · AI 워크플로우 설계</span></div>
+            <div class="row"><span class="k">Focus</span><span class="v">영상 자동 생성 · 미디어</span></div>
+            <div class="row"><span class="k">Type</span><span class="v">샘플 / 실험</span></div>
+          </div>
+          <div class="pj-tags">
+            <span class="tag">AI 영상</span><span class="tag">제작 자동화</span><span class="tag">숏폼</span>
+          </div>
+          <a class="pj-link" href="https://drive.google.com/file/d/1b6TOSZfWdK7LklJx97rQ50d-I1esCxJi/view?usp=sharing" target="_blank" rel="noopener">샘플 영상 보기 <span class="ar">↗</span></a>
+        </div>
+        <div class="pj-visual">
+          <div class="browser">
+            <div class="browser-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">AI 정보 영상 샘플 · drive.google.com</span></div>
+            <div class="video-shell">
+              <iframe src="https://drive.google.com/file/d/1b6TOSZfWdK7LklJx97rQ50d-I1esCxJi/preview" title="AI 정보 영상 샘플" loading="lazy" allow="autoplay" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <span class="eyebrow reveal">03 — Contact</span>
+      <h2 class="reveal">함께 만들<span class="l"> 일이 있다면.</span></h2>
+      <div class="contact-rows reveal">
+        <a href="mailto:2hthegreat@naver.com">
+          <span class="k">Email</span>
+          <span class="v">2hthegreat@naver.com</span>
+        </a>
+        <a href="tel:01089848128">
+          <span class="k">Phone</span>
+          <span class="v">010-8984-8128</span>
+        </a>
+        <div>
+          <span class="k">Based in</span>
+          <span class="v">대한민국 · 서울</span>
+        </div>
+      </div>
+      <div class="foot">
+        <span class="serif">Park Hyeonghun — Portfolio 2026</span>
+        <span>기획 · 디자인 · 개발</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script>
+  /* sticky header border */
+  const head = document.getElementById('head');
+  const onScroll = () => head.classList.toggle('scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* scroll reveal */
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  /* side index — scroll spy */
+  const dexLinks = [...document.querySelectorAll('.dex a')];
+  const spyTargets = dexLinks.map(a => document.getElementById(a.dataset.target)).filter(Boolean);
+  const setActive = (id) => {
+    dexLinks.forEach(a => a.classList.toggle('on', a.dataset.target === id));
+  };
+  const spy = () => {
+    const line = window.scrollY + Math.min(window.innerHeight * 0.3, 240) + 70;
+    let current = spyTargets[0];
+    for (const sec of spyTargets) {
+      const top = sec.getBoundingClientRect().top + window.scrollY;
+      if (top - 2 <= line) current = sec;
+    }
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) {
+      current = spyTargets[spyTargets.length - 1];
+    }
+    if (current) setActive(current.id);
+  };
+  spy();
+  window.addEventListener('scroll', spy, { passive: true });
+  window.addEventListener('resize', spy, { passive: true });
+  dexLinks.forEach(a => a.addEventListener('click', () => setActive(a.dataset.target)));
+
+  /* live dashboard previews — auto-load the main screen when scrolled into view */
+  document.querySelectorAll('.live-shell').forEach(shell => {
+    const cover = shell.querySelector('.live-cover');
+    const fit = () => {
+      const f = shell.querySelector('iframe');
+      if (!f) return;
+      const scale = shell.clientWidth / 1320;
+      f.style.transform = 'scale(' + scale + ')';
+      f.style.width = '1320px';
+      f.style.height = (shell.clientHeight / scale) + 'px';
+    };
+    const load = () => {
+      if (shell.dataset.loaded) return;
+      shell.dataset.loaded = '1';
+      const f = document.createElement('iframe');
+      f.loading = 'lazy';
+      f.setAttribute('title', shell.querySelector('.live-cover .ttl').textContent);
+      f.src = shell.dataset.src;
+      shell.insertBefore(f, cover);
+      requestAnimationFrame(fit);
+      let loaded = false;
+      f.addEventListener('load', () => { loaded = true; shell.classList.add('on'); });
+      // if framing is blocked (no load fired), turn the cover into a manual open button
+      setTimeout(() => {
+        if (!loaded) {
+          shell.classList.add('blocked');
+          cover.addEventListener('click', () => window.open(shell.dataset.href, '_blank', 'noopener'));
+        }
+      }, 5000);
+    };
+    const lo = new IntersectionObserver((ents) => {
+      ents.forEach(e => { if (e.isIntersecting) { load(); lo.disconnect(); } });
+    }, { rootMargin: '200px 0px' });
+    lo.observe(shell);
+    window.addEventListener('resize', fit, { passive: true });
+  });
+</script>
+</body>
+</html>
